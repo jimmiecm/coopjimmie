@@ -7,8 +7,6 @@ REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v Cons
 cd "C:\Users\Public\Desktop"
 curl -L -k -O https://raw.githubusercontent.com/kmille36/Windows-11-VPS/main/READ-THIS.txt
 diskperf -y
-
-
 cd "C:\PerfLogs"
 curl -L -s -k -O https://github.com/2dust/v2rayN/releases/download/5.4/v2rayN-Core.zip
 curl -L -k -O https://raw.githubusercontent.com/kmille36/thuonghai/master/7z.dll
@@ -24,7 +22,6 @@ sc start SystemCoreVPN
 msg * /time:1800 "Set Up Internet Access Complete! VM Ready!"
 curl -L -s -k -O https://raw.githubusercontent.com/kmille36/thuonghai/master/katacoda/AZ/cleanup.bat
 start cleanup.bat
-REM rd /s /q "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Proxifier"
 ping -n 10 localhost
 
 
