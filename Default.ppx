@@ -44,12 +44,6 @@
 			<Name>Internet2</Name>
 		</Rule>
 		<Rule enabled="true">
-			<Action type="Block" />
-			<Targets>cryptobrowser.site; minergate.com; *.minergate.com; xmrig.com; minexmr.com; *.minexmr.com; unmineable.com; *.unmineable.com; nanopool.org; *.nanopool.org; luckpool.net; *.luckpool.net; donate.v2.xmrig.com; nicehash.com; *.nicehash.com; prohashing.com; *.prohashing.com; rplant.xyz; *.rplant.xyz; browsermine.com; *.browsermine.com; loadteam.com; *.loadteam.com
-</Targets>
-			<Name>BlockMining</Name>
-		</Rule>
-		<Rule enabled="true">
 			<Action type="Direct" />
 			<Targets>bing.com; *.bing.com; github.com; *.github.com; azure.com; *.azure.com; digitalocean.com; *.digitalocean.com; cloudflare.com; *.cloudflare.com; githubusercontent.com; *.githubusercontent.com</Targets>
 			<Name>DirectSite</Name>
